@@ -1,0 +1,42 @@
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe.config
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.AssemblyReference.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.Properties.Resources.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.GenerateResource.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.CoreCompileInputs.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriKayitOl.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmGirisler.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYetkiliGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyon.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe.config
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.pdb
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.AssemblyReference.cache
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmGirisler.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriGiris.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriKayitOl.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyon.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYetkiliGiris.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.Properties.Resources.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.GenerateResource.cache
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.CoreCompileInputs.cache
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.exe
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe.config
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\bin\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.AssemblyReference.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmGirisler.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriKayitOl.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyon.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYetkiliGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.Properties.Resources.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.GenerateResource.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.CoreCompileInputs.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.pdb
