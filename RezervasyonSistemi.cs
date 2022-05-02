@@ -18,5 +18,9 @@ namespace hotelOasis
         {
             this.rezervasyonTipi.RezervasyonIslemYap();
         }
+        public void RezervasyonUcretGoster()
+        {
+            this.rezervasyonTipi.RezervasyonUcretGoster();
+        }
     }
 }

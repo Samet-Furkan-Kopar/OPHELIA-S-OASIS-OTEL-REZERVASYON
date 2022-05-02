@@ -77,10 +77,12 @@
       <DependentUpon>FrmYetkiliGiris.cs</DependentUpon>
     </Compile>
     <Compile Include="IRezervasyonTipi.cs" />
+    <Compile Include="Islem.cs" />
     <Compile Include="Musteriİslemeri.cs" />
     <Compile Include="OnOdemeliRez.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RezervasyonIslemleri.cs" />
     <Compile Include="RezervasyonSistemi.cs" />
     <Compile Include="Sql.cs" />
     <Compile Include="StandartRez.cs" />

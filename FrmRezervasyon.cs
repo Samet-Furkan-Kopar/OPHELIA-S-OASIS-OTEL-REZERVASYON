@@ -18,6 +18,8 @@ namespace hotelOasis
         Sql bgl = new Sql();
         public string KullaniciAd { get; set; }
         public string AdSoyad { get; set; }
+        public int aralik { get; set; }
+        public double Ucret { get; set; }
 
 
         public FrmRezervasyon()
@@ -33,6 +35,46 @@ namespace hotelOasis
             {
                 lblMusteriID.Text = Dr1[0].ToString();
                 AdSoyad = Dr1[1].ToString();
+            }
+        }
+
+        public void TarihIslemleri()
+        {
+            TimeSpan RezervasyonAraligi, RezervasyonKacGunKaldi;
+            RezervasyonAraligi = DateTime.Parse(dateTimeCikis.Text) - DateTime.Parse(dateTimeGiris.Text);
+            RezervasyonKacGunKaldi = DateTime.Parse(dateTimeGiris.Text) - DateTime.Parse(DateTime.Now.ToString());
+            lblKalinanGun.Text = RezervasyonAraligi.TotalDays.ToString();
+            lblRezervasyonKacGunKaldi.Text = RezervasyonKacGunKaldi.TotalDays.ToString();
+        }
+
+        private void btn_Rezervasyonlarım_Click(object sender, EventArgs e)
+        {
+
+
+
+        }
+
+        private void btn_RezervasyonYap_Click(object sender, EventArgs e)
+        {
+            TarihIslemleri();
+            aralik = int.Parse(lblKalinanGun.Text);
+            double RezervasyonaKalanGun = double.Parse(lblRezervasyonKacGunKaldi.Text);
+
+
+            if (RezervasyonaKalanGun >= 90)
+            {
+                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new OnOdemeliRez(aralik,dateTimeGiris,dateTimeCikis,lblMusteriID.Text));
+                rezervasyonSistemi.RezervasyonIslemYap();
+            }
+            else if ((RezervasyonaKalanGun >= 60) && (RezervasyonaKalanGun <= 90))
+            {
+                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new _60GunOnceRez(aralik, dateTimeGiris, dateTimeCikis, lblMusteriID.Text));
+                rezervasyonSistemi.RezervasyonIslemYap();
+            }
+            else if (RezervasyonaKalanGun <= 60)
+            {
+                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new StandartRez(aralik, dateTimeGiris, dateTimeCikis, lblMusteriID.Text));
+                rezervasyonSistemi.RezervasyonIslemYap();
             }
         }
 
@@ -74,31 +116,26 @@ namespace hotelOasis
             btn_Rezervasyonlarım.ForeColor = Color.White;
         }
 
-        private void btn_Rezervasyonlarım_Click(object sender, EventArgs e)
+        private void btn_UcretHesapla_Click(object sender, EventArgs e)
         {
-            //TimeSpan farkgun = new TimeSpan();
-            //DateTime dt_Baslama_Tarih = Convert.ToDateTime(dateTimeGiris.Value);
-            //DateTime dt_Bitis_Tarih = Convert.ToDateTime(dateTimeCikis.Value);
-            //DateTime dateNow = DateTime.Now;
-            //TimeSpan Simdi = TimeSpan.FromDays(dateNow.Day);
-            //TimeSpan time1 = TimeSpan.FromDays(dt_Baslama_Tarih.Month());
-            //TimeSpan time2 = TimeSpan.FromDays(dt_Bitis_Tarih.Day);
-            //farkgun = time1-Simdi;
-            //MessageBox.Show(farkgun.ToString());
-
-            TimeSpan RezervasyonAraligi,Aralik;
-            RezervasyonAraligi = DateTime.Parse(dateTimeCikis.Text) - DateTime.Parse(dateTimeGiris.Text);
-            Aralik = DateTime.Parse(dateTimeGiris.Text) -DateTime.Parse(DateTime.Now.ToString());
-            lblKalinanGun.Text = RezervasyonAraligi.TotalDays.ToString();
-            lblAralik.Text = Aralik.TotalDays.ToString();
-
-        }
-
-        private void btn_RezervasyonYap_Click(object sender, EventArgs e)
-        {
-
-          
-
+            TarihIslemleri();
+            aralik = int.Parse(lblKalinanGun.Text);
+            double RezervasyonaKalanGun = double.Parse(lblRezervasyonKacGunKaldi.Text);
+            if (RezervasyonaKalanGun >= 90)
+            {
+                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new OnOdemeliRez(aralik, dateTimeGiris, dateTimeCikis, lblMusteriID.Text));
+                rezervasyonSistemi.RezervasyonUcretGoster();
+            }
+            else if ((RezervasyonaKalanGun >= 60) && (RezervasyonaKalanGun <= 90))
+            {
+                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new _60GunOnceRez(aralik, dateTimeGiris, dateTimeCikis, lblMusteriID.Text));
+                rezervasyonSistemi.RezervasyonUcretGoster();
+            }
+            else if (RezervasyonaKalanGun <= 60)
+            {
+                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new StandartRez(aralik, dateTimeGiris, dateTimeCikis, lblMusteriID.Text));
+                rezervasyonSistemi.RezervasyonUcretGoster();
+            }
         }
     }
 }

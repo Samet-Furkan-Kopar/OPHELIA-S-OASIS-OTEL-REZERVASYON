@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace hotelOasis
 {
-    interface IRezervasyonTipi
+    public class Islem
     {
-        int RezervasyonIslemYap();
-        int RezervasyonUcretGoster();
+
     }
 }
