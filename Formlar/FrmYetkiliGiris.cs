@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace hotelOasis
 {
@@ -16,6 +17,11 @@ namespace hotelOasis
         {
             InitializeComponent();
         }
+
+
+
+
+
         Sql sql = new Sql();
 
         private void btn_Giris_Click(object sender, EventArgs e)
@@ -28,6 +34,9 @@ namespace hotelOasis
 
             yetkiliİslemleri.Giris();
             this.Hide();
+
+
+
 
         }
     }

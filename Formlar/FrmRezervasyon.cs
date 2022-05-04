@@ -9,8 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
-
-
 namespace hotelOasis
 {
     public partial class FrmRezervasyon : Form
@@ -20,7 +18,6 @@ namespace hotelOasis
         public string AdSoyad { get; set; }
         public int aralik { get; set; }
         public double Ucret { get; set; }
-
 
         public FrmRezervasyon()
         {
@@ -47,11 +44,17 @@ namespace hotelOasis
             lblRezervasyonKacGunKaldi.Text = RezervasyonKacGunKaldi.TotalDays.ToString();
         }
 
+        public void Odeme_Yaptir()
+        {
+            FrmOdeme frmOdeme = new FrmOdeme();
+            frmOdeme.Show();
+            this.Hide();
+        }
         private void btn_Rezervasyonlarım_Click(object sender, EventArgs e)
         {
-
-
-
+            FrmRezervasyonlarım frmRezervasyonlarım = new FrmRezervasyonlarım();
+            frmRezervasyonlarım.MusteriID = int.Parse(lblMusteriID.Text);
+            frmRezervasyonlarım.Show();
         }
 
         private void btn_RezervasyonYap_Click(object sender, EventArgs e)
@@ -60,11 +63,14 @@ namespace hotelOasis
             aralik = int.Parse(lblKalinanGun.Text);
             double RezervasyonaKalanGun = double.Parse(lblRezervasyonKacGunKaldi.Text);
 
-
             if (RezervasyonaKalanGun >= 90)
             {
+                OdemeSistemi odemeSistemi = new OdemeSistemi(new KrediKartiOdeme());
+                odemeSistemi.OdemeYap();
+
                 RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new OnOdemeliRez(aralik,dateTimeGiris,dateTimeCikis,lblMusteriID.Text));
                 rezervasyonSistemi.RezervasyonIslemYap();
+
             }
             else if ((RezervasyonaKalanGun >= 60) && (RezervasyonaKalanGun <= 90))
             {
@@ -73,9 +79,13 @@ namespace hotelOasis
             }
             else if (RezervasyonaKalanGun <= 60)
             {
+
+
+
                 RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new StandartRez(aralik, dateTimeGiris, dateTimeCikis, lblMusteriID.Text));
                 rezervasyonSistemi.RezervasyonIslemYap();
             }
+
         }
 
         private void FrmRezervasyon_Load(object sender, EventArgs e)
@@ -125,6 +135,7 @@ namespace hotelOasis
             {
                 RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new OnOdemeliRez(aralik, dateTimeGiris, dateTimeCikis, lblMusteriID.Text));
                 rezervasyonSistemi.RezervasyonUcretGoster();
+                
             }
             else if ((RezervasyonaKalanGun >= 60) && (RezervasyonaKalanGun <= 90))
             {
@@ -136,6 +147,12 @@ namespace hotelOasis
                 RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new StandartRez(aralik, dateTimeGiris, dateTimeCikis, lblMusteriID.Text));
                 rezervasyonSistemi.RezervasyonUcretGoster();
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RezervasyonIslemleri rezervasyonIslemleri = new RezervasyonIslemleri();
+            rezervasyonIslemleri.DolulukOranı();
         }
     }
 }

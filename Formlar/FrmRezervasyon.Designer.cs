@@ -44,6 +44,7 @@ namespace hotelOasis
             this.lblKalinanGun = new System.Windows.Forms.Label();
             this.lblMusteriID = new System.Windows.Forms.Label();
             this.btn_UcretHesapla = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcrBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcrExit)).BeginInit();
             this.SuspendLayout();
@@ -120,7 +121,7 @@ namespace hotelOasis
             this.dateTimeGiris.Name = "dateTimeGiris";
             this.dateTimeGiris.Size = new System.Drawing.Size(200, 29);
             this.dateTimeGiris.TabIndex = 5;
-            this.dateTimeGiris.Value = new System.DateTime(2022, 4, 28, 0, 0, 0, 0);
+            this.dateTimeGiris.Value = new System.DateTime(2022, 5, 4, 0, 0, 0, 0);
             // 
             // dateTimeCikis
             // 
@@ -136,6 +137,7 @@ namespace hotelOasis
             this.dateTimeCikis.Name = "dateTimeCikis";
             this.dateTimeCikis.Size = new System.Drawing.Size(200, 29);
             this.dateTimeCikis.TabIndex = 6;
+            this.dateTimeCikis.Value = new System.DateTime(2022, 5, 4, 17, 35, 19, 0);
             // 
             // lbl_adSoyad
             // 
@@ -233,6 +235,7 @@ namespace hotelOasis
             this.lblMusteriID.Size = new System.Drawing.Size(44, 28);
             this.lblMusteriID.TabIndex = 24;
             this.lblMusteriID.Text = "----";
+            this.lblMusteriID.Visible = false;
             // 
             // btn_UcretHesapla
             // 
@@ -253,6 +256,16 @@ namespace hotelOasis
             this.btn_UcretHesapla.UseVisualStyleBackColor = false;
             this.btn_UcretHesapla.Click += new System.EventHandler(this.btn_UcretHesapla_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(85, 265);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 30;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmRezervasyon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -260,6 +273,7 @@ namespace hotelOasis
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(497, 439);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_UcretHesapla);
             this.Controls.Add(this.lblMusteriID);
             this.Controls.Add(this.lblKalinanGun);
@@ -304,5 +318,6 @@ namespace hotelOasis
         private System.Windows.Forms.Label lblKalinanGun;
         private System.Windows.Forms.Label lblMusteriID;
         private System.Windows.Forms.Button btn_UcretHesapla;
+        private System.Windows.Forms.Button button1;
     }
 }

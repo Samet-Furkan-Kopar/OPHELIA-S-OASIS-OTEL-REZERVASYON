@@ -46,62 +46,92 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmMusteriGiris.cs">
+    <Compile Include="Formlar\FrmMusteriGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMusteriGiris.Designer.cs">
+    <Compile Include="Formlar\FrmMusteriGiris.Designer.cs">
       <DependentUpon>FrmMusteriGiris.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmGirisler.cs">
+    <Compile Include="Formlar\FrmGirisler.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmGirisler.Designer.cs">
+    <Compile Include="Formlar\FrmGirisler.Designer.cs">
       <DependentUpon>FrmGirisler.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMusteriKayitOl.cs">
+    <Compile Include="Formlar\FrmMusteriKayitOl.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmMusteriKayitOl.Designer.cs">
+    <Compile Include="Formlar\FrmMusteriKayitOl.Designer.cs">
       <DependentUpon>FrmMusteriKayitOl.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmRezervasyon.cs">
+    <Compile Include="Formlar\FrmOdeme.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmRezervasyon.Designer.cs">
+    <Compile Include="Formlar\FrmOdeme.Designer.cs">
+      <DependentUpon>FrmOdeme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmRezervasyon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmRezervasyon.Designer.cs">
       <DependentUpon>FrmRezervasyon.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmYetkiliGiris.cs">
+    <Compile Include="Formlar\FrmYetkiliGiris.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmYetkiliGiris.Designer.cs">
+    <Compile Include="Formlar\FrmYetkiliGiris.Designer.cs">
       <DependentUpon>FrmYetkiliGiris.cs</DependentUpon>
     </Compile>
-    <Compile Include="IRezervasyonTipi.cs" />
-    <Compile Include="Islem.cs" />
-    <Compile Include="Musteriİslemeri.cs" />
-    <Compile Include="OnOdemeliRez.cs" />
+    <Compile Include="Formlar\FrmYonetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmYonetici.Designer.cs">
+      <DependentUpon>FrmYonetici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Abstract\IRezervasyonTipi.cs" />
+    <Compile Include="FrmRezervasyonlarım.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRezervasyonlarım.Designer.cs">
+      <DependentUpon>FrmRezervasyonlarım.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Odemeler\KrediKartiOdeme.cs" />
+    <Compile Include="Islemler\Musteriİslemeri.cs" />
+    <Compile Include="Abstract\IOdemeYontem.cs" />
+    <Compile Include="Odemeler\NakitOdeme.cs" />
+    <Compile Include="Abstract\OdemeSistemi.cs" />
+    <Compile Include="RezervasyonTip\OnOdemeliRez.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RezervasyonIslemleri.cs" />
-    <Compile Include="RezervasyonSistemi.cs" />
-    <Compile Include="Sql.cs" />
-    <Compile Include="StandartRez.cs" />
-    <Compile Include="Yetkiliİslemleri.cs" />
-    <Compile Include="_60GunOnceRez.cs" />
-    <EmbeddedResource Include="FrmGirisler.resx">
+    <Compile Include="Islemler\RezervasyonIslemleri.cs" />
+    <Compile Include="Abstract\RezervasyonSistemi.cs" />
+    <Compile Include="Islemler\Sql.cs" />
+    <Compile Include="RezervasyonTip\StandartRez.cs" />
+    <Compile Include="Islemler\Yetkiliİslemleri.cs" />
+    <Compile Include="RezervasyonTip\_60GunOnceRez.cs" />
+    <EmbeddedResource Include="Formlar\FrmGirisler.resx">
       <DependentUpon>FrmGirisler.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMusteriGiris.resx">
+    <EmbeddedResource Include="Formlar\FrmMusteriGiris.resx">
       <DependentUpon>FrmMusteriGiris.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmMusteriKayitOl.resx">
+    <EmbeddedResource Include="Formlar\FrmMusteriKayitOl.resx">
       <DependentUpon>FrmMusteriKayitOl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmRezervasyon.resx">
+    <EmbeddedResource Include="Formlar\FrmOdeme.resx">
+      <DependentUpon>FrmOdeme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmRezervasyon.resx">
       <DependentUpon>FrmRezervasyon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmYetkiliGiris.resx">
+    <EmbeddedResource Include="Formlar\FrmYetkiliGiris.resx">
       <DependentUpon>FrmYetkiliGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmYonetici.resx">
+      <DependentUpon>FrmYonetici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRezervasyonlarım.resx">
+      <DependentUpon>FrmRezervasyonlarım.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -132,6 +162,7 @@
     <Content Include="Assets\Back.png" />
     <Content Include="Assets\Exit_2.png" />
     <Content Include="Assets\hotel.ico" />
+    <Content Include="Assets\PaymentBG.jpg" />
     <Content Include="Assets\ReservationBG.jpg" />
     <Content Include="Assets\SignUpBG.jpg" />
   </ItemGroup>

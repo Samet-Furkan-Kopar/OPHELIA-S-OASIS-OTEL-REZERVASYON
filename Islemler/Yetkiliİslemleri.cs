@@ -24,7 +24,7 @@ namespace hotelOasis
         {
             try
             {
-                SqlCommand komut = new SqlCommand("Select * From Tbl_Yetkililer where Kullanici_Adi=@adi AND Sifre=@sifresi and Yetki=@Yetki", bgl.baglanti());
+                SqlCommand komut = new SqlCommand("Select Y.Kullanici_Adi,Y.Sifre,A.Yetki From Tbl_Yetkililer Y inner join Tbl_Yetkiler A on Y.YetkiID = A.ID  where Kullanici_Adi=@adi AND Sifre=@sifresi AND A.Yetki=@Yetki", bgl.baglanti());
                 SqlParameter prm1 = new SqlParameter("adi", KullaniciAdi.Trim());
                 SqlParameter prm2 = new SqlParameter("sifresi", Sifre.Trim());
                 SqlParameter prm3 = new SqlParameter("Yetki", Yetki.Trim());
@@ -37,17 +37,14 @@ namespace hotelOasis
 
                 if (dt.Rows.Count > 0)
                 {
-                    //frmYetkili fry = new frmYetkili();
-                    //fry.kadi = Yetki;
-                    //fry.Show();
-                    MessageBox.Show("Giriş Başarılı");
+                    FrmYonetici frmYonetici = new FrmYonetici();
+                    frmYonetici.Show();
                 }
                 else
                 {
-                    //MessageBox.Show("Kullanıcı Adı veya Şifre Hatalı!", "HATA", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    //frmYetkiliLogin fyl = new frmYetkiliLogin();
-                    //fyl.Show();
-                    MessageBox.Show("Giriş Hatalı");
+                    MessageBox.Show("Kullanıcı Adı veya Şifre Hatalı!", "HATA", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    FrmYetkiliGiris frmYetkiliGiris = new FrmYetkiliGiris();
+                    frmYetkiliGiris.Show();
 
                 }
 

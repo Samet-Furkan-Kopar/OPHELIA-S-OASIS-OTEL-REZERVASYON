@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace hotelOasis
 {
-    public class Islem
+    class NakitOdeme : IOdemeYontem
     {
-
+        public int OdemeYap()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

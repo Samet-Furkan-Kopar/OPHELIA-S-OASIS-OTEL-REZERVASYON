@@ -40,3 +40,6 @@ C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\h
 C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.exe
 C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.pdb
 C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.AssemblyReference.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYonetici.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmOdeme.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyonlarım.resources
