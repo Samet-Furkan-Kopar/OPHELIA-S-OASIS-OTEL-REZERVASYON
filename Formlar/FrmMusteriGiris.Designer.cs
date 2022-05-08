@@ -46,12 +46,12 @@ namespace hotelOasis
             // 
             this.btn_Giris.BackColor = System.Drawing.Color.Transparent;
             this.btn_Giris.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Giris.FlatAppearance.BorderSize = 3;
+            this.btn_Giris.FlatAppearance.BorderSize = 2;
             this.btn_Giris.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btn_Giris.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btn_Giris.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Giris.ForeColor = System.Drawing.Color.White;
-            this.btn_Giris.Location = new System.Drawing.Point(628, 187);
+            this.btn_Giris.Location = new System.Drawing.Point(642, 242);
             this.btn_Giris.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btn_Giris.Name = "btn_Giris";
             this.btn_Giris.Size = new System.Drawing.Size(95, 45);
@@ -67,10 +67,10 @@ namespace hotelOasis
             this.lbl_Sifre.AutoSize = true;
             this.lbl_Sifre.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Sifre.ForeColor = System.Drawing.Color.White;
-            this.lbl_Sifre.Location = new System.Drawing.Point(506, 146);
+            this.lbl_Sifre.Location = new System.Drawing.Point(520, 201);
             this.lbl_Sifre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Sifre.Name = "lbl_Sifre";
-            this.lbl_Sifre.Size = new System.Drawing.Size(61, 28);
+            this.lbl_Sifre.Size = new System.Drawing.Size(49, 21);
             this.lbl_Sifre.TabIndex = 3;
             this.lbl_Sifre.Text = "Şifre:";
             // 
@@ -79,10 +79,10 @@ namespace hotelOasis
             this.lbl_kullaniciAd.AutoSize = true;
             this.lbl_kullaniciAd.BackColor = System.Drawing.Color.Transparent;
             this.lbl_kullaniciAd.ForeColor = System.Drawing.Color.White;
-            this.lbl_kullaniciAd.Location = new System.Drawing.Point(424, 99);
+            this.lbl_kullaniciAd.Location = new System.Drawing.Point(438, 154);
             this.lbl_kullaniciAd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_kullaniciAd.Name = "lbl_kullaniciAd";
-            this.lbl_kullaniciAd.Size = new System.Drawing.Size(143, 28);
+            this.lbl_kullaniciAd.Size = new System.Drawing.Size(115, 21);
             this.lbl_kullaniciAd.TabIndex = 4;
             this.lbl_kullaniciAd.Text = "Kullanıcı Adı: ";
             // 
@@ -90,39 +90,41 @@ namespace hotelOasis
             // 
             this.txt_kullaniciAd.BackColor = System.Drawing.SystemColors.Window;
             this.txt_kullaniciAd.ForeColor = System.Drawing.Color.Black;
-            this.txt_kullaniciAd.Location = new System.Drawing.Point(575, 99);
+            this.txt_kullaniciAd.Location = new System.Drawing.Point(589, 154);
             this.txt_kullaniciAd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_kullaniciAd.Name = "txt_kullaniciAd";
-            this.txt_kullaniciAd.Size = new System.Drawing.Size(148, 34);
+            this.txt_kullaniciAd.Size = new System.Drawing.Size(148, 29);
             this.txt_kullaniciAd.TabIndex = 0;
             this.txt_kullaniciAd.Text = "Cansalik21";
             // 
             // txt_sifre
             // 
-            this.txt_sifre.Location = new System.Drawing.Point(575, 143);
+            this.txt_sifre.Location = new System.Drawing.Point(589, 198);
             this.txt_sifre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_sifre.Name = "txt_sifre";
-            this.txt_sifre.Size = new System.Drawing.Size(148, 34);
+            this.txt_sifre.Size = new System.Drawing.Size(148, 29);
             this.txt_sifre.TabIndex = 1;
             this.txt_sifre.Text = "123456";
             this.txt_sifre.UseSystemPasswordChar = true;
             // 
             // lnklbl_kayitOl
             // 
-            this.lnklbl_kayitOl.ActiveLinkColor = System.Drawing.Color.Goldenrod;
+            this.lnklbl_kayitOl.ActiveLinkColor = System.Drawing.Color.Khaki;
             this.lnklbl_kayitOl.AutoSize = true;
             this.lnklbl_kayitOl.BackColor = System.Drawing.Color.Transparent;
+            this.lnklbl_kayitOl.DisabledLinkColor = System.Drawing.Color.White;
             this.lnklbl_kayitOl.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lnklbl_kayitOl.ForeColor = System.Drawing.Color.White;
-            this.lnklbl_kayitOl.LinkBehavior = System.Windows.Forms.LinkBehavior.AlwaysUnderline;
-            this.lnklbl_kayitOl.LinkColor = System.Drawing.Color.White;
-            this.lnklbl_kayitOl.Location = new System.Drawing.Point(634, 237);
+            this.lnklbl_kayitOl.ForeColor = System.Drawing.Color.Transparent;
+            this.lnklbl_kayitOl.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.lnklbl_kayitOl.LinkColor = System.Drawing.Color.Transparent;
+            this.lnklbl_kayitOl.Location = new System.Drawing.Point(648, 292);
             this.lnklbl_kayitOl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnklbl_kayitOl.Name = "lnklbl_kayitOl";
-            this.lnklbl_kayitOl.Size = new System.Drawing.Size(89, 28);
+            this.lnklbl_kayitOl.Size = new System.Drawing.Size(70, 21);
             this.lnklbl_kayitOl.TabIndex = 3;
             this.lnklbl_kayitOl.TabStop = true;
             this.lnklbl_kayitOl.Text = "Kayıt Ol";
+            this.lnklbl_kayitOl.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.lnklbl_kayitOl.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnklbl_kayitOl_LinkClicked);
             // 
             // pcr_Exit
@@ -154,11 +156,11 @@ namespace hotelOasis
             // FrmMusteriGiris
             // 
             this.AcceptButton = this.btn_Giris;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(782, 403);
+            this.ClientSize = new System.Drawing.Size(750, 450);
             this.Controls.Add(this.pcr_Back);
             this.Controls.Add(this.pcr_Exit);
             this.Controls.Add(this.lnklbl_kayitOl);
@@ -174,7 +176,7 @@ namespace hotelOasis
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FrmMusteriGiris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Müşteri Girişi";
             ((System.ComponentModel.ISupportInitialize)(this.pcr_Exit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcr_Back)).EndInit();
             this.ResumeLayout(false);

@@ -33,7 +33,7 @@ namespace hotelOasis
 
         private void btn_Yetkili_MouseHover(object sender, EventArgs e)
         {
-            btn_Yetkili.ForeColor = Color.PaleGoldenrod;
+            btn_Yetkili.ForeColor = Color.Goldenrod;
         }
 
         private void btn_Yetkili_MouseLeave(object sender, EventArgs e)
@@ -43,7 +43,7 @@ namespace hotelOasis
 
         private void btn_Musteri_MouseHover(object sender, EventArgs e)
         {
-            btn_Musteri.ForeColor = Color.PaleGoldenrod;
+            btn_Musteri.ForeColor = Color.Goldenrod;
         }
 
         private void btn_Musteri_MouseLeave(object sender, EventArgs e)

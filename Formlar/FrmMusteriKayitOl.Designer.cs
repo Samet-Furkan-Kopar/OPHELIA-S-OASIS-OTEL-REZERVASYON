@@ -54,10 +54,10 @@ namespace hotelOasis
             this.btn_Kayit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Kayit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Kayit.ForeColor = System.Drawing.Color.White;
-            this.btn_Kayit.Location = new System.Drawing.Point(175, 188);
+            this.btn_Kayit.Location = new System.Drawing.Point(570, 269);
             this.btn_Kayit.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Kayit.Name = "btn_Kayit";
-            this.btn_Kayit.Size = new System.Drawing.Size(135, 37);
+            this.btn_Kayit.Size = new System.Drawing.Size(169, 37);
             this.btn_Kayit.TabIndex = 4;
             this.btn_Kayit.Text = "Kayıt Ol";
             this.btn_Kayit.UseVisualStyleBackColor = false;
@@ -71,7 +71,7 @@ namespace hotelOasis
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(7, 64);
+            this.label1.Location = new System.Drawing.Point(402, 137);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(164, 30);
@@ -84,7 +84,7 @@ namespace hotelOasis
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(10, 96);
+            this.label2.Location = new System.Drawing.Point(405, 169);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(161, 30);
@@ -97,7 +97,7 @@ namespace hotelOasis
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(95, 125);
+            this.label3.Location = new System.Drawing.Point(490, 198);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 30);
@@ -110,7 +110,7 @@ namespace hotelOasis
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(74, 154);
+            this.label4.Location = new System.Drawing.Point(469, 227);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 30);
@@ -120,38 +120,38 @@ namespace hotelOasis
             // txt_AdiSoyadi
             // 
             this.txt_AdiSoyadi.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_AdiSoyadi.Location = new System.Drawing.Point(175, 72);
+            this.txt_AdiSoyadi.Location = new System.Drawing.Point(570, 140);
             this.txt_AdiSoyadi.Margin = new System.Windows.Forms.Padding(2);
             this.txt_AdiSoyadi.Name = "txt_AdiSoyadi";
-            this.txt_AdiSoyadi.Size = new System.Drawing.Size(135, 25);
+            this.txt_AdiSoyadi.Size = new System.Drawing.Size(169, 25);
             this.txt_AdiSoyadi.TabIndex = 0;
             // 
             // txt_Sifre
             // 
             this.txt_Sifre.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txt_Sifre.Location = new System.Drawing.Point(175, 130);
+            this.txt_Sifre.Location = new System.Drawing.Point(570, 198);
             this.txt_Sifre.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Sifre.Name = "txt_Sifre";
-            this.txt_Sifre.Size = new System.Drawing.Size(135, 25);
+            this.txt_Sifre.Size = new System.Drawing.Size(169, 25);
             this.txt_Sifre.TabIndex = 2;
             this.txt_Sifre.UseSystemPasswordChar = true;
             // 
             // txt_KullaniciAdi
             // 
             this.txt_KullaniciAdi.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txt_KullaniciAdi.Location = new System.Drawing.Point(175, 101);
+            this.txt_KullaniciAdi.Location = new System.Drawing.Point(570, 169);
             this.txt_KullaniciAdi.Margin = new System.Windows.Forms.Padding(2);
             this.txt_KullaniciAdi.Name = "txt_KullaniciAdi";
-            this.txt_KullaniciAdi.Size = new System.Drawing.Size(135, 25);
+            this.txt_KullaniciAdi.Size = new System.Drawing.Size(169, 25);
             this.txt_KullaniciAdi.TabIndex = 1;
             // 
             // txt_Eposta
             // 
             this.txt_Eposta.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txt_Eposta.Location = new System.Drawing.Point(175, 159);
+            this.txt_Eposta.Location = new System.Drawing.Point(570, 227);
             this.txt_Eposta.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Eposta.Name = "txt_Eposta";
-            this.txt_Eposta.Size = new System.Drawing.Size(135, 25);
+            this.txt_Eposta.Size = new System.Drawing.Size(169, 25);
             this.txt_Eposta.TabIndex = 3;
             // 
             // pcr_Exit
@@ -159,7 +159,7 @@ namespace hotelOasis
             this.pcr_Exit.BackColor = System.Drawing.Color.Transparent;
             this.pcr_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pcr_Exit.Image = ((System.Drawing.Image)(resources.GetObject("pcr_Exit.Image")));
-            this.pcr_Exit.Location = new System.Drawing.Point(295, 12);
+            this.pcr_Exit.Location = new System.Drawing.Point(707, 12);
             this.pcr_Exit.Name = "pcr_Exit";
             this.pcr_Exit.Size = new System.Drawing.Size(32, 21);
             this.pcr_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -187,7 +187,7 @@ namespace hotelOasis
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(339, 313);
+            this.ClientSize = new System.Drawing.Size(750, 450);
             this.Controls.Add(this.pcr_Back);
             this.Controls.Add(this.pcr_Exit);
             this.Controls.Add(this.txt_Eposta);

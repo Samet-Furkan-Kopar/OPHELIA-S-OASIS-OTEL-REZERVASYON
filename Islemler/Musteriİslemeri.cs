@@ -64,11 +64,15 @@ namespace hotelOasis
                 SqlCommand komut = new SqlCommand("Insert into Tbl_Musteriler (AdiSoyadi,Kullanici_Adi,Sifre,Eposta) Values ('" + AdSoyadi + "','" + KullaniciAdi + "','" + Sifre + "','" + Eposta + "')", bgl.baglanti());
                 komut.ExecuteNonQuery();
                 bgl.baglanti().Close();
-                MessageBox.Show("Kayıt Başarıyla Tamamlandı\nKullanıcı Adınız: " + KullaniciAdi.ToUpper() + "\nŞifreniz: " + Sifre.ToUpper(), "KAYIT TAMAMLANDI", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Kayıt Başarıyla Tamamlandı\nKullanıcı Adınız: " + KullaniciAdi + "\nŞifreniz: " + Sifre, "KAYIT TAMAMLANDI", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 musteriGiris.Show();
                 FrmMusteriKayitOl frmMusteriKayitOl = new FrmMusteriKayitOl();
                 frmMusteriKayitOl.Hide();
             }
+        }
+        public void KrediKartKaydet()
+        {
+
         }
     }
 }

@@ -37,8 +37,16 @@ namespace hotelOasis
 
                 if (dt.Rows.Count > 0)
                 {
-                    FrmYonetici frmYonetici = new FrmYonetici();
-                    frmYonetici.Show();
+                    if (Yetki == "Yönetici")
+                    {
+                        FrmYonetici frmYonetici = new FrmYonetici();
+                        frmYonetici.Show();
+                    }
+                    else
+                    {
+                        FrmCalisan frmCalisan = new FrmCalisan();
+                        frmCalisan.Show();
+                    }
                 }
                 else
                 {
@@ -47,7 +55,6 @@ namespace hotelOasis
                     frmYetkiliGiris.Show();
 
                 }
-
             }
             catch (Exception)
             {

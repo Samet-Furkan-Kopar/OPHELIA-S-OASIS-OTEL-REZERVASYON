@@ -17,27 +17,38 @@ namespace hotelOasis
         {
             InitializeComponent();
         }
-
-
-
-
-
         Sql sql = new Sql();
 
         private void btn_Giris_Click(object sender, EventArgs e)
         {
-            Yetkiliİslemleri yetkiliİslemleri = new Yetkiliİslemleri();
+              Yetkiliİslemleri yetkiliİslemleri = new Yetkiliİslemleri();
+              yetkiliİslemleri.KullaniciAdi = txt_kullaniciAd.Text;
+              yetkiliİslemleri.Sifre = txt_sifre.Text;
+              yetkiliİslemleri.Yetki = cmb_Yetki.Text;
+              yetkiliİslemleri.Giris();
+              this.Hide();
+        }
 
-            yetkiliİslemleri.KullaniciAdi = txt_kullaniciAd.Text;
-            yetkiliİslemleri.Sifre = txt_sifre.Text;
-            yetkiliİslemleri.Yetki = cmb_Yetki.Text;
+        private void btn_Giris_MouseHover(object sender, EventArgs e)
+        {
+            btn_Giris.ForeColor = Color.Green;
+        }
 
-            yetkiliİslemleri.Giris();
+        private void btn_Giris_MouseLeave(object sender, EventArgs e)
+        {
+            btn_Giris.ForeColor = Color.White;
+        }
+
+        private void pcr_Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pcr_Back_Click(object sender, EventArgs e)
+        {
+            FrmGirisler frmGirisler = new FrmGirisler();
+            frmGirisler.Show();
             this.Hide();
-
-
-
-
         }
     }
 }

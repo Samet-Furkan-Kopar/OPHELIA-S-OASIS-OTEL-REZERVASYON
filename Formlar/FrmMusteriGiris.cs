@@ -28,7 +28,6 @@ namespace hotelOasis
         private void btn_Giris_Click(object sender, EventArgs e)
         {
             Musteriİslemeri musteriİslemeri = new Musteriİslemeri();
-
             musteriİslemeri.KullaniciAdi = txt_kullaniciAd.Text;
             musteriİslemeri.Sifre = txt_sifre.Text;
             musteriİslemeri.Giris();

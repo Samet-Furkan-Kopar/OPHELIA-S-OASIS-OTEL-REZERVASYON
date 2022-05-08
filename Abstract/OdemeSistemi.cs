@@ -13,9 +13,21 @@ namespace hotelOasis
         {
             this.odemeYontem = odemeYontem;
         }
-        public void OdemeYap()
+        public void OnOdemeliOdemeYap()
         {
-            this.odemeYontem.OdemeYap();
+            this.odemeYontem.OnOdemeliOdemeYap();
+        }
+        public void _60GunOnceOdemeYap()
+        {
+            this.odemeYontem._60GunOnceOdemeYap();
+        }
+        public void StandarOdemeYap()
+        {
+            this.odemeYontem.StandarOdemeYap();
+        }
+        public void _60GunOnceKartKaydet()
+        {
+            this.odemeYontem._60GunOnceKartKaydet();
         }
     }
 }

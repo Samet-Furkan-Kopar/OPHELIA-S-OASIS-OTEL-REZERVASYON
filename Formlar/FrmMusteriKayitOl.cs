@@ -19,18 +19,38 @@ namespace hotelOasis
 
         private void btn_Kayit_Click(object sender, EventArgs e)
         {
-            Musteriİslemeri musteriİslemeri = new Musteriİslemeri();
-            musteriİslemeri.KullaniciAdi = txt_KullaniciAdi.Text;
-            musteriİslemeri.Sifre = txt_Sifre.Text;
-            musteriİslemeri.Eposta = txt_Eposta.Text;
-            musteriİslemeri.AdSoyadi = txt_AdiSoyadi.Text;
-            musteriİslemeri.KayıtOl();
-            
-            
-            
-            FrmMusteriGiris frmMusteriGiris = new FrmMusteriGiris();
-            //frmMusteriGiris.Show();
-            this.Hide();
+            try
+            {
+                if (txt_AdiSoyadi.Text == "" || txt_KullaniciAdi.Text == "" || txt_Sifre.Text == "" || txt_Eposta.Text == "")
+                {
+                    MessageBox.Show("Lütfen Boş Alanları Doldurunuz.!", "UYARI!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                }
+                else if (txt_Eposta.Text.Contains("@") && txt_Eposta.Text.Contains(".com") && txt_AdiSoyadi.Text != null && txt_KullaniciAdi.Text != null && txt_Sifre.Text != null)
+                {
+                    Musteriİslemeri musteriİslemeri = new Musteriİslemeri();
+                    musteriİslemeri.KullaniciAdi = txt_KullaniciAdi.Text;
+                    musteriİslemeri.Sifre = txt_Sifre.Text;
+                    musteriİslemeri.Eposta = txt_Eposta.Text;
+                    musteriİslemeri.AdSoyadi = txt_AdiSoyadi.Text;
+                    musteriİslemeri.KayıtOl();
+                    FrmMusteriGiris frmMusteriGiris = new FrmMusteriGiris();
+                    frmMusteriGiris.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Lütfen E-Posta'nızı Doğru Giriniz.", "UYARI!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                }
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Lütfen Boş Alanları Doldurunuz.!", "UYARI!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+
         }
 
         private void pcr_Exit_Click(object sender, EventArgs e)

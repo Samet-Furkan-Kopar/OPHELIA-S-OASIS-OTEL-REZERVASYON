@@ -4,60 +4,74 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace hotelOasis
 {
     public class StandartRez : IRezervasyonTipi
     {
         public int aralik;
-        public DateTimePicker dateTimeGiris;
-        public DateTimePicker dateTimeCikis;
-        public string MusteriId;
+        string giris;
+        string cikis;
+        public int MusteriId;
         double odenecekTutar;
         double tesvikliTutar;
-        int tabanFiyat = 100;
+        public int tabanFiyat { get; set; }
 
-        public StandartRez(int aralik, DateTimePicker dateTimeGiris, DateTimePicker dateTimeCikis, string lblMusteriID)
+        Sql bgl = new Sql();
+
+        public void TabanFiyatGetir()
+        {
+            SqlCommand Com2 = new SqlCommand("select TabanFiyat from Tbl_Fiyat", bgl.baglanti());
+            SqlDataReader Dr1 = Com2.ExecuteReader();
+            while (Dr1.Read())
+            {
+                tabanFiyat = (int)Dr1[0];
+            }
+        }
+
+        public StandartRez(int aralik, string Giris, string Cikis, string lblMusteriID)
         {
             this.aralik = aralik;
-            this.dateTimeGiris = dateTimeGiris;
-            this.dateTimeCikis = dateTimeCikis;
-            this.MusteriId = lblMusteriID;
+            this.giris = Giris;
+            this.cikis = Cikis;
+            this.MusteriId = int.Parse(lblMusteriID);
         }
 
         public int RezervasyonIslemYap()
         {
             RezervasyonIslemleri rezervasyonIslemleri1 = new RezervasyonIslemleri();
+            TabanFiyatGetir();
             odenecekTutar = tabanFiyat * aralik;
             if (rezervasyonIslemleri1.Hesaplanan <= 60 && aralik < 30)
             {
                 tesvikliTutar = odenecekTutar * 0.8;
-                rezervasyonIslemleri1.GirisTarihi = dateTimeGiris.Value;
-                rezervasyonIslemleri1.CikisTarihi = dateTimeCikis.Value;
+                rezervasyonIslemleri1.GirisTarihi = giris;
+                rezervasyonIslemleri1.CikisTarihi = cikis;
                 rezervasyonIslemleri1.Ucret = tesvikliTutar;
-                rezervasyonIslemleri1.RezervasyonTipID = 3;
-                rezervasyonIslemleri1.MusteriID = int.Parse(MusteriId);
+                rezervasyonIslemleri1.RezervasyonTipID = 6;
+                rezervasyonIslemleri1.MusteriID = MusteriId;
                 rezervasyonIslemleri1.RezervasyonKayit();
-                MessageBox.Show("Giriş Tarihi: '" + dateTimeGiris.Value.ToShortDateString() + "'\nÇıkış Trihi: '" + dateTimeCikis.Value.ToShortDateString() + "'\nOdenecek Tutar: " + tesvikliTutar, "REZERVASYON YAPILMIŞTIR", MessageBoxButtons.OK);
+                MessageBox.Show("Giriş Tarihi: '" + giris + "'\nÇıkış Trihi: '" + cikis + "'\nOdenecek Tutar: " + tesvikliTutar, "REZERVASYON YAPILMIŞTIR", MessageBoxButtons.OK);
             }
             else
             {
                 RezervasyonIslemleri rezervasyonIslemleri = new RezervasyonIslemleri();
-                rezervasyonIslemleri.GirisTarihi = dateTimeGiris.Value;
-                rezervasyonIslemleri.CikisTarihi = dateTimeCikis.Value;
+                rezervasyonIslemleri.GirisTarihi = giris;
+                rezervasyonIslemleri.CikisTarihi = cikis;
                 rezervasyonIslemleri.Ucret = odenecekTutar;
                 rezervasyonIslemleri.RezervasyonTipID = 3;
-                rezervasyonIslemleri.MusteriID = int.Parse(MusteriId);
+                rezervasyonIslemleri.MusteriID = MusteriId;
                 rezervasyonIslemleri.RezervasyonKayit();
-                MessageBox.Show("Giriş Tarihi: '" + dateTimeGiris.Value.ToShortDateString() + "'\nÇıkış Trihi: '" + dateTimeCikis.Value.ToShortDateString() + "'\nOdenecek Tutar: " + odenecekTutar, "REZERVASYON YAPILMIŞTIR", MessageBoxButtons.OK);
+                MessageBox.Show("Giriş Tarihi: '" + giris + "'\nÇıkış Trihi: '" + cikis + "'\nOdenecek Tutar: " + odenecekTutar, "REZERVASYON YAPILMIŞTIR", MessageBoxButtons.OK);
             }
-
-            MessageBox.Show("Giriş Tarihi: '" + dateTimeGiris.Value.ToShortDateString() + "'\nÇıkış Trihi: '" + dateTimeCikis.Value.ToShortDateString() + "'\nOdenecek Tutar: " + odenecekTutar, "REZERVASYON YAPILMIŞTIR", MessageBoxButtons.OK);
             return 0;
         }
 
         public int RezervasyonUcretGoster()
         {
+            TabanFiyatGetir();
+
             odenecekTutar = tabanFiyat *  aralik;
 
             RezervasyonIslemleri rezervasyonIslemleri1 = new RezervasyonIslemleri();

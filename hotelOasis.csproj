@@ -82,23 +82,34 @@
     <Compile Include="Formlar\FrmYetkiliGiris.Designer.cs">
       <DependentUpon>FrmYetkiliGiris.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formlar\FrmYonetici.cs">
+    <Compile Include="Formlar\FrmCalisan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formlar\FrmYonetici.Designer.cs">
-      <DependentUpon>FrmYonetici.cs</DependentUpon>
+    <Compile Include="Formlar\FrmCalisan.Designer.cs">
+      <DependentUpon>FrmCalisan.cs</DependentUpon>
     </Compile>
     <Compile Include="Abstract\IRezervasyonTipi.cs" />
+    <Compile Include="Frm60GunOnceOdeme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm60GunOnceOdeme.Designer.cs">
+      <DependentUpon>Frm60GunOnceOdeme.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRezervasyonlarım.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmRezervasyonlarım.Designer.cs">
       <DependentUpon>FrmRezervasyonlarım.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmYonetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYonetici.Designer.cs">
+      <DependentUpon>FrmYonetici.cs</DependentUpon>
+    </Compile>
     <Compile Include="Odemeler\KrediKartiOdeme.cs" />
     <Compile Include="Islemler\Musteriİslemeri.cs" />
     <Compile Include="Abstract\IOdemeYontem.cs" />
-    <Compile Include="Odemeler\NakitOdeme.cs" />
     <Compile Include="Abstract\OdemeSistemi.cs" />
     <Compile Include="RezervasyonTip\OnOdemeliRez.cs" />
     <Compile Include="Program.cs" />
@@ -127,11 +138,17 @@
     <EmbeddedResource Include="Formlar\FrmYetkiliGiris.resx">
       <DependentUpon>FrmYetkiliGiris.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formlar\FrmYonetici.resx">
-      <DependentUpon>FrmYonetici.cs</DependentUpon>
+    <EmbeddedResource Include="Formlar\FrmCalisan.resx">
+      <DependentUpon>FrmCalisan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm60GunOnceOdeme.resx">
+      <DependentUpon>Frm60GunOnceOdeme.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRezervasyonlarım.resx">
       <DependentUpon>FrmRezervasyonlarım.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYonetici.resx">
+      <DependentUpon>FrmYonetici.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -157,14 +174,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Background.jpg" />
-    <Content Include="Assets\Back_2.png" />
     <Content Include="Assets\Exit.png" />
     <Content Include="Assets\Back.png" />
-    <Content Include="Assets\Exit_2.png" />
     <Content Include="Assets\hotel.ico" />
-    <Content Include="Assets\PaymentBG.jpg" />
-    <Content Include="Assets\ReservationBG.jpg" />
-    <Content Include="Assets\SignUpBG.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

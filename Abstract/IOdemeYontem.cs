@@ -8,6 +8,9 @@ namespace hotelOasis
 {
     interface IOdemeYontem
     {
-        int OdemeYap();
+        int OnOdemeliOdemeYap();
+        int _60GunOnceOdemeYap();
+        int StandarOdemeYap();
+        int _60GunOnceKartKaydet();
     }
 }
