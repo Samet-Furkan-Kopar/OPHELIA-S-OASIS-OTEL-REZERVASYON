@@ -45,7 +45,6 @@ namespace hotelOasis
             this.pcr_Back = new System.Windows.Forms.PictureBox();
             this.pcr_Exit = new System.Windows.Forms.PictureBox();
             this.lbl_MusteriID2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcr_Back)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcr_Exit)).BeginInit();
             this.SuspendLayout();
@@ -60,10 +59,10 @@ namespace hotelOasis
             this.btn_RezervasyonYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RezervasyonYap.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RezervasyonYap.ForeColor = System.Drawing.Color.White;
-            this.btn_RezervasyonYap.Location = new System.Drawing.Point(460, 234);
-            this.btn_RezervasyonYap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_RezervasyonYap.Location = new System.Drawing.Point(345, 190);
+            this.btn_RezervasyonYap.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_RezervasyonYap.Name = "btn_RezervasyonYap";
-            this.btn_RezervasyonYap.Size = new System.Drawing.Size(257, 62);
+            this.btn_RezervasyonYap.Size = new System.Drawing.Size(193, 50);
             this.btn_RezervasyonYap.TabIndex = 0;
             this.btn_RezervasyonYap.Text = "Rezervasyon Yap";
             this.btn_RezervasyonYap.UseVisualStyleBackColor = false;
@@ -77,9 +76,10 @@ namespace hotelOasis
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(312, 97);
+            this.label1.Location = new System.Drawing.Point(234, 79);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 28);
+            this.label1.Size = new System.Drawing.Size(97, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "Adı Soyadı: ";
             // 
@@ -89,9 +89,10 @@ namespace hotelOasis
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(308, 143);
+            this.label2.Location = new System.Drawing.Point(231, 116);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 28);
+            this.label2.Size = new System.Drawing.Size(100, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "Giriş Tarihi: ";
             // 
@@ -101,9 +102,10 @@ namespace hotelOasis
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(305, 192);
+            this.label3.Location = new System.Drawing.Point(229, 156);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 28);
+            this.label3.Size = new System.Drawing.Size(102, 21);
             this.label3.TabIndex = 3;
             this.label3.Text = "Çıkış Tarihi: ";
             // 
@@ -117,10 +119,10 @@ namespace hotelOasis
             this.dateTimeGiris.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimeGiris.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimeGiris.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dateTimeGiris.Location = new System.Drawing.Point(460, 139);
-            this.dateTimeGiris.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dateTimeGiris.Location = new System.Drawing.Point(345, 113);
+            this.dateTimeGiris.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimeGiris.Name = "dateTimeGiris";
-            this.dateTimeGiris.Size = new System.Drawing.Size(200, 29);
+            this.dateTimeGiris.Size = new System.Drawing.Size(151, 24);
             this.dateTimeGiris.TabIndex = 5;
             this.dateTimeGiris.Value = new System.DateTime(2022, 5, 4, 0, 0, 0, 0);
             // 
@@ -133,10 +135,10 @@ namespace hotelOasis
             this.dateTimeCikis.CalendarTitleForeColor = System.Drawing.Color.White;
             this.dateTimeCikis.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimeCikis.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimeCikis.Location = new System.Drawing.Point(460, 188);
-            this.dateTimeCikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dateTimeCikis.Location = new System.Drawing.Point(345, 153);
+            this.dateTimeCikis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimeCikis.Name = "dateTimeCikis";
-            this.dateTimeCikis.Size = new System.Drawing.Size(200, 29);
+            this.dateTimeCikis.Size = new System.Drawing.Size(151, 24);
             this.dateTimeCikis.TabIndex = 6;
             this.dateTimeCikis.Value = new System.DateTime(2022, 5, 4, 17, 35, 19, 0);
             // 
@@ -146,9 +148,10 @@ namespace hotelOasis
             this.lbl_adSoyad.BackColor = System.Drawing.Color.Transparent;
             this.lbl_adSoyad.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_adSoyad.ForeColor = System.Drawing.Color.White;
-            this.lbl_adSoyad.Location = new System.Drawing.Point(455, 97);
+            this.lbl_adSoyad.Location = new System.Drawing.Point(341, 79);
+            this.lbl_adSoyad.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_adSoyad.Name = "lbl_adSoyad";
-            this.lbl_adSoyad.Size = new System.Drawing.Size(44, 28);
+            this.lbl_adSoyad.Size = new System.Drawing.Size(34, 21);
             this.lbl_adSoyad.TabIndex = 8;
             this.lbl_adSoyad.Text = "----";
             // 
@@ -158,9 +161,10 @@ namespace hotelOasis
             this.lblRezervasyonKacGunKaldi.BackColor = System.Drawing.Color.Transparent;
             this.lblRezervasyonKacGunKaldi.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRezervasyonKacGunKaldi.ForeColor = System.Drawing.Color.White;
-            this.lblRezervasyonKacGunKaldi.Location = new System.Drawing.Point(11, 517);
+            this.lblRezervasyonKacGunKaldi.Location = new System.Drawing.Point(8, 420);
+            this.lblRezervasyonKacGunKaldi.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRezervasyonKacGunKaldi.Name = "lblRezervasyonKacGunKaldi";
-            this.lblRezervasyonKacGunKaldi.Size = new System.Drawing.Size(133, 28);
+            this.lblRezervasyonKacGunKaldi.Size = new System.Drawing.Size(105, 21);
             this.lblRezervasyonKacGunKaldi.TabIndex = 19;
             this.lblRezervasyonKacGunKaldi.Text = "KacGunKaldı";
             this.lblRezervasyonKacGunKaldi.Visible = false;
@@ -175,11 +179,11 @@ namespace hotelOasis
             this.btn_Rezervasyonlarım.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Rezervasyonlarım.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Rezervasyonlarım.ForeColor = System.Drawing.Color.White;
-            this.btn_Rezervasyonlarım.Location = new System.Drawing.Point(460, 324);
-            this.btn_Rezervasyonlarım.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Rezervasyonlarım.Location = new System.Drawing.Point(345, 263);
+            this.btn_Rezervasyonlarım.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_Rezervasyonlarım.Name = "btn_Rezervasyonlarım";
-            this.btn_Rezervasyonlarım.Size = new System.Drawing.Size(257, 62);
-            this.btn_Rezervasyonlarım.TabIndex = 22;
+            this.btn_Rezervasyonlarım.Size = new System.Drawing.Size(193, 50);
+            this.btn_Rezervasyonlarım.TabIndex = 1;
             this.btn_Rezervasyonlarım.Text = "Rezervasyonlarım";
             this.btn_Rezervasyonlarım.UseVisualStyleBackColor = false;
             this.btn_Rezervasyonlarım.Click += new System.EventHandler(this.btn_Rezervasyonlarım_Click);
@@ -192,9 +196,10 @@ namespace hotelOasis
             this.lblKalinanGun.BackColor = System.Drawing.Color.Transparent;
             this.lblKalinanGun.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKalinanGun.ForeColor = System.Drawing.Color.White;
-            this.lblKalinanGun.Location = new System.Drawing.Point(11, 491);
+            this.lblKalinanGun.Location = new System.Drawing.Point(8, 399);
+            this.lblKalinanGun.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblKalinanGun.Name = "lblKalinanGun";
-            this.lblKalinanGun.Size = new System.Drawing.Size(123, 28);
+            this.lblKalinanGun.Size = new System.Drawing.Size(99, 21);
             this.lblKalinanGun.TabIndex = 23;
             this.lblKalinanGun.Text = "KalinanGun";
             this.lblKalinanGun.Visible = false;
@@ -205,9 +210,10 @@ namespace hotelOasis
             this.lblMusteriID.BackColor = System.Drawing.Color.Transparent;
             this.lblMusteriID.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMusteriID.ForeColor = System.Drawing.Color.White;
-            this.lblMusteriID.Location = new System.Drawing.Point(11, 465);
+            this.lblMusteriID.Location = new System.Drawing.Point(8, 378);
+            this.lblMusteriID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMusteriID.Name = "lblMusteriID";
-            this.lblMusteriID.Size = new System.Drawing.Size(50, 28);
+            this.lblMusteriID.Size = new System.Drawing.Size(41, 21);
             this.lblMusteriID.TabIndex = 24;
             this.lblMusteriID.Text = "MID";
             this.lblMusteriID.Visible = false;
@@ -222,11 +228,11 @@ namespace hotelOasis
             this.btn_UcretHesapla.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_UcretHesapla.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_UcretHesapla.ForeColor = System.Drawing.Color.White;
-            this.btn_UcretHesapla.Location = new System.Drawing.Point(460, 407);
-            this.btn_UcretHesapla.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_UcretHesapla.Location = new System.Drawing.Point(345, 331);
+            this.btn_UcretHesapla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_UcretHesapla.Name = "btn_UcretHesapla";
-            this.btn_UcretHesapla.Size = new System.Drawing.Size(257, 62);
-            this.btn_UcretHesapla.TabIndex = 29;
+            this.btn_UcretHesapla.Size = new System.Drawing.Size(193, 50);
+            this.btn_UcretHesapla.TabIndex = 2;
             this.btn_UcretHesapla.Text = "Ücret Hesapla";
             this.btn_UcretHesapla.UseVisualStyleBackColor = false;
             this.btn_UcretHesapla.Click += new System.EventHandler(this.btn_UcretHesapla_Click);
@@ -238,10 +244,9 @@ namespace hotelOasis
             this.pcr_Back.BackColor = System.Drawing.Color.Transparent;
             this.pcr_Back.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pcr_Back.Image = ((System.Drawing.Image)(resources.GetObject("pcr_Back.Image")));
-            this.pcr_Back.Location = new System.Drawing.Point(16, 15);
-            this.pcr_Back.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pcr_Back.Location = new System.Drawing.Point(12, 12);
             this.pcr_Back.Name = "pcr_Back";
-            this.pcr_Back.Size = new System.Drawing.Size(43, 26);
+            this.pcr_Back.Size = new System.Drawing.Size(32, 21);
             this.pcr_Back.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcr_Back.TabIndex = 31;
             this.pcr_Back.TabStop = false;
@@ -252,10 +257,9 @@ namespace hotelOasis
             this.pcr_Exit.BackColor = System.Drawing.Color.Transparent;
             this.pcr_Exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pcr_Exit.Image = ((System.Drawing.Image)(resources.GetObject("pcr_Exit.Image")));
-            this.pcr_Exit.Location = new System.Drawing.Point(941, 15);
-            this.pcr_Exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pcr_Exit.Location = new System.Drawing.Point(706, 12);
             this.pcr_Exit.Name = "pcr_Exit";
-            this.pcr_Exit.Size = new System.Drawing.Size(43, 26);
+            this.pcr_Exit.Size = new System.Drawing.Size(32, 21);
             this.pcr_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcr_Exit.TabIndex = 30;
             this.pcr_Exit.TabStop = false;
@@ -267,32 +271,21 @@ namespace hotelOasis
             this.lbl_MusteriID2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_MusteriID2.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_MusteriID2.ForeColor = System.Drawing.Color.White;
-            this.lbl_MusteriID2.Location = new System.Drawing.Point(11, 439);
+            this.lbl_MusteriID2.Location = new System.Drawing.Point(8, 357);
+            this.lbl_MusteriID2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_MusteriID2.Name = "lbl_MusteriID2";
-            this.lbl_MusteriID2.Size = new System.Drawing.Size(62, 28);
+            this.lbl_MusteriID2.Size = new System.Drawing.Size(50, 21);
             this.lbl_MusteriID2.TabIndex = 32;
             this.lbl_MusteriID2.Text = "MID2";
             this.lbl_MusteriID2.Visible = false;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(179, 214);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 33;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // FrmRezervasyon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1000, 554);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(750, 450);
             this.Controls.Add(this.lbl_MusteriID2);
             this.Controls.Add(this.pcr_Back);
             this.Controls.Add(this.pcr_Exit);
@@ -310,7 +303,7 @@ namespace hotelOasis
             this.Controls.Add(this.btn_RezervasyonYap);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmRezervasyon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hotel Oasis Rezervasyon Ekranı";
@@ -339,6 +332,5 @@ namespace hotelOasis
         private System.Windows.Forms.PictureBox pcr_Back;
         private System.Windows.Forms.PictureBox pcr_Exit;
         private System.Windows.Forms.Label lbl_MusteriID2;
-        private System.Windows.Forms.Button button1;
     }
 }

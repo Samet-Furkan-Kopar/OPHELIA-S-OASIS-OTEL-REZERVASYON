@@ -50,8 +50,7 @@ namespace hotelOasis
             this.txt_sifre.Margin = new System.Windows.Forms.Padding(2);
             this.txt_sifre.Name = "txt_sifre";
             this.txt_sifre.Size = new System.Drawing.Size(123, 24);
-            this.txt_sifre.TabIndex = 13;
-            this.txt_sifre.Text = "123456";
+            this.txt_sifre.TabIndex = 1;
             this.txt_sifre.UseSystemPasswordChar = true;
             // 
             // txt_kullaniciAd
@@ -61,8 +60,7 @@ namespace hotelOasis
             this.txt_kullaniciAd.Margin = new System.Windows.Forms.Padding(2);
             this.txt_kullaniciAd.Name = "txt_kullaniciAd";
             this.txt_kullaniciAd.Size = new System.Drawing.Size(123, 24);
-            this.txt_kullaniciAd.TabIndex = 12;
-            this.txt_kullaniciAd.Text = "Admin";
+            this.txt_kullaniciAd.TabIndex = 0;
             // 
             // lbl_kullaniciAd
             // 
@@ -103,7 +101,7 @@ namespace hotelOasis
             this.btn_Giris.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Giris.Name = "btn_Giris";
             this.btn_Giris.Size = new System.Drawing.Size(116, 31);
-            this.btn_Giris.TabIndex = 9;
+            this.btn_Giris.TabIndex = 3;
             this.btn_Giris.Text = "Giriş";
             this.btn_Giris.UseVisualStyleBackColor = false;
             this.btn_Giris.Click += new System.EventHandler(this.btn_Giris_Click);
@@ -134,8 +132,7 @@ namespace hotelOasis
             this.cmb_Yetki.Margin = new System.Windows.Forms.Padding(2);
             this.cmb_Yetki.Name = "cmb_Yetki";
             this.cmb_Yetki.Size = new System.Drawing.Size(123, 23);
-            this.cmb_Yetki.TabIndex = 15;
-            this.cmb_Yetki.Text = "Yönetici";
+            this.cmb_Yetki.TabIndex = 2;
             // 
             // pcr_Back
             // 

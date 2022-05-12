@@ -23,6 +23,7 @@ namespace hotelOasis
         public double Hesaplanan { get; set; }
         public int  Aralik { get; set; }
         public int TabanFiyat { get; set; }
+        public string OdemeTarihi { get; set; }
 
 
         public void RezervasyonOnayla()
@@ -36,7 +37,7 @@ namespace hotelOasis
         }
         public void OdaDoldur()
         {
-            SqlCommand komut = new SqlCommand("Insert into Tbl_DoluOdalar (GirisTarihi,CikisTarihi,MusteriID,RezervasyonTipID,OdaNo) Values ('" + GirisTarihi + "','" + CikisTarihi + "','" + MusteriID + "','" + RezervasyonTipID + "','" + OdaNO + "')", bgl.baglanti());
+            SqlCommand komut = new SqlCommand("Insert into Tbl_DoluOdalar (GirisTarihi,CikisTarihi,MusteriID,RezervasyonTipID,OdaNo,OdenenUcret,OdemeTarihi) Values ('" + GirisTarihi + "','" + CikisTarihi + "','" + MusteriID + "','" + RezervasyonTipID + "','" + OdaNO + "','" + Ucret + "','" + OdemeTarihi + "')", bgl.baglanti());
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
         }
@@ -51,7 +52,6 @@ namespace hotelOasis
             Com2.ExecuteNonQuery();
 
             bgl.baglanti().Close();
-            MessageBox.Show("Oda Boşaltılmıştır.", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
         public void RezervasyonBitir()
@@ -86,8 +86,17 @@ namespace hotelOasis
         }
         public void RezervasyonKayit()
         {
-            SqlCommand komut = new SqlCommand("Insert into Tbl_Rezervasyonlar (GirisTarihi,CikisTarihi,MusteriID,RezervasyonTipID,Ucret) Values ('" + GirisTarihi+ "','" + CikisTarihi + "','" + MusteriID + "','" + RezervasyonTipID + "','" + Ucret + "')", bgl.baglanti());
+            SqlCommand komut = new SqlCommand("Insert into Tbl_Rezervasyonlar (GirisTarihi,CikisTarihi,MusteriID,RezervasyonTipID,Ucret,OdemeTarihi) Values ('" + GirisTarihi+ "','" + CikisTarihi + "','" + MusteriID + "','" + RezervasyonTipID + "','" + Ucret + "','" + OdemeTarihi + "')", bgl.baglanti());
             komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+        }
+
+        public void _60GunOncedenOdemeYapma()
+        {
+            SqlCommand Com = new SqlCommand("update Tbl_Rezervasyonlar set OdemeTarihi=@OdemeTarih where MusteriID=@MusteriID", bgl.baglanti());
+            Com.Parameters.AddWithValue("@OdemeTarih", OdemeTarihi);
+            Com.Parameters.AddWithValue("@MusteriID", MusteriID);
+            Com.ExecuteNonQuery();
             bgl.baglanti().Close();
         }
 

@@ -21,6 +21,7 @@ namespace hotelOasis
         public string MusteriID { get; set; }
         public string Giris { get; set; }
         public string Cikis { get; set; }
+        public string OdemeTarih { get; set; }
         public double RezervasyonaKacKaldi { get; set; }
 
         Sql bgl = new Sql();
@@ -48,6 +49,7 @@ namespace hotelOasis
 
         private void btn_Odeme_Click(object sender, EventArgs e)
         {
+            OdemeTarih = DateTime.Today.ToString("yyyy-MM-dd");
             if (txt_AdSoyad.Text == "" || msktxt_Cvv.Text == "" || msktxt_SonKullanim.Text == "" || msktxt_KartNo.Text == "")
             {
                 MessageBox.Show("Lütfen Tüm Alanları Doldurunuz.!", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -57,7 +59,7 @@ namespace hotelOasis
             {
                 if (RezervasyonaKacKaldi>=90)
                 {
-                    RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new OnOdemeliRez(aralik, Giris, Cikis, MusteriID));
+                    RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new OnOdemeliRez(aralik, Giris, Cikis, MusteriID,OdemeTarih));
                     rezervasyonSistemi.RezervasyonIslemYap();
                     KartKaydet();
                 }
@@ -84,7 +86,7 @@ namespace hotelOasis
 
         private void btn_KartKaydet_Click(object sender, EventArgs e)
         {
-            
+            OdemeTarih = null;
             if (txt_AdSoyad.Text == "" || msktxt_Cvv.Text == "" || msktxt_SonKullanim.Text == "" || msktxt_KartNo.Text == "")
             {
                 MessageBox.Show("Lütfen Tüm Alanları Doldurunuz.!", "BİLGİLENDİRME", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -93,13 +95,13 @@ namespace hotelOasis
             {
                 if ((RezervasyonaKacKaldi >= 60) && (RezervasyonaKacKaldi <= 90))
                 {
-                    RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new _60GunOnceRez(aralik, Giris, Cikis, MusteriID));
+                    RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new _60GunOnceRez(aralik, Giris, Cikis, MusteriID,OdemeTarih));
                     rezervasyonSistemi.RezervasyonIslemYap();
                     KartKaydet();
                 }
                 else if(RezervasyonaKacKaldi<60)
                 {
-                    RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new StandartRez(aralik, Giris, Cikis, MusteriID));
+                    RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new StandartRez(aralik, Giris, Cikis, MusteriID,OdemeTarih));
                     rezervasyonSistemi.RezervasyonIslemYap();
                     KartKaydet();
                 }

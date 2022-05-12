@@ -27,6 +27,7 @@ namespace hotelOasis
         public int MusteriID { get; set; }
         public string Giris { get; set; }
         public string Cikis { get; set; }
+        public string OdemeTarih { get; set; }
 
         public void AdSoyadGetir()
         {
@@ -106,18 +107,18 @@ namespace hotelOasis
             double RezervasyonaKalanGun = double.Parse(lblRezervasyonKacGunKaldi.Text);
             if (RezervasyonaKalanGun >= 90)
             {
-                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new OnOdemeliRez(aralik, Giris, Cikis, lblMusteriID.Text));
+                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new OnOdemeliRez(aralik, Giris, Cikis, lblMusteriID.Text,OdemeTarih));
                 rezervasyonSistemi.RezervasyonUcretGoster();
 
             }
             else if ((RezervasyonaKalanGun >= 60) && (RezervasyonaKalanGun <= 90))
             {
-                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new _60GunOnceRez(aralik, Giris, Cikis, lblMusteriID.Text));
+                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new _60GunOnceRez(aralik, Giris, Cikis, lblMusteriID.Text, OdemeTarih));
                 rezervasyonSistemi.RezervasyonUcretGoster();
             }
             else if (RezervasyonaKalanGun <= 60)
             {
-                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new StandartRez(aralik, Giris, Cikis, lblMusteriID.Text));
+                RezervasyonSistemi rezervasyonSistemi = new RezervasyonSistemi(new StandartRez(aralik, Giris, Cikis, lblMusteriID.Text, OdemeTarih));
                 rezervasyonSistemi.RezervasyonUcretGoster();
             }
         }
@@ -173,10 +174,6 @@ namespace hotelOasis
             FrmGirisler frmGirisler = new FrmGirisler();
             frmGirisler.Show();
             this.Hide();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
         }
     }
 }

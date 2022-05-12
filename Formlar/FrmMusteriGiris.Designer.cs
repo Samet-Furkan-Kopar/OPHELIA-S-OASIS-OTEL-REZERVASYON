@@ -95,7 +95,6 @@ namespace hotelOasis
             this.txt_kullaniciAd.Name = "txt_kullaniciAd";
             this.txt_kullaniciAd.Size = new System.Drawing.Size(148, 29);
             this.txt_kullaniciAd.TabIndex = 0;
-            this.txt_kullaniciAd.Text = "Cansalik21";
             // 
             // txt_sifre
             // 
@@ -104,7 +103,6 @@ namespace hotelOasis
             this.txt_sifre.Name = "txt_sifre";
             this.txt_sifre.Size = new System.Drawing.Size(148, 29);
             this.txt_sifre.TabIndex = 1;
-            this.txt_sifre.Text = "123456";
             this.txt_sifre.UseSystemPasswordChar = true;
             // 
             // lnklbl_kayitOl

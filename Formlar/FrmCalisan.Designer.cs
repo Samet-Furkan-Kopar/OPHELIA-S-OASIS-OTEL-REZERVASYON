@@ -57,6 +57,8 @@ namespace hotelOasis
             this.pcrBack = new System.Windows.Forms.PictureBox();
             this.dateTimePickerGiris = new System.Windows.Forms.DateTimePicker();
             this.dateTimePickerCikis = new System.Windows.Forms.DateTimePicker();
+            this.btn_RaporlarıGoster = new System.Windows.Forms.Button();
+            this.btn_EpostaGonder = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvw_Rezervasyonlar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvw_DoluOdalar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcrExit)).BeginInit();
@@ -201,7 +203,7 @@ namespace hotelOasis
             this.btn_RezervasyonOnayla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_RezervasyonOnayla.Name = "btn_RezervasyonOnayla";
             this.btn_RezervasyonOnayla.Size = new System.Drawing.Size(188, 36);
-            this.btn_RezervasyonOnayla.TabIndex = 30;
+            this.btn_RezervasyonOnayla.TabIndex = 2;
             this.btn_RezervasyonOnayla.Text = "Rezervasyon Onayla";
             this.btn_RezervasyonOnayla.UseVisualStyleBackColor = false;
             this.btn_RezervasyonOnayla.Click += new System.EventHandler(this.btn_RezervasyonOnayla_Click);
@@ -214,7 +216,7 @@ namespace hotelOasis
             this.cmbx_OdaNo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbx_OdaNo.Name = "cmbx_OdaNo";
             this.cmbx_OdaNo.Size = new System.Drawing.Size(84, 25);
-            this.cmbx_OdaNo.TabIndex = 31;
+            this.cmbx_OdaNo.TabIndex = 0;
             // 
             // label6
             // 
@@ -235,7 +237,7 @@ namespace hotelOasis
             this.lbl_MusteriID.BackColor = System.Drawing.Color.Transparent;
             this.lbl_MusteriID.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lbl_MusteriID.ForeColor = System.Drawing.Color.White;
-            this.lbl_MusteriID.Location = new System.Drawing.Point(6, 431);
+            this.lbl_MusteriID.Location = new System.Drawing.Point(5, 448);
             this.lbl_MusteriID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_MusteriID.Name = "lbl_MusteriID";
             this.lbl_MusteriID.Size = new System.Drawing.Size(51, 20);
@@ -257,7 +259,7 @@ namespace hotelOasis
             this.btn_DoluOdalar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_DoluOdalar.Name = "btn_DoluOdalar";
             this.btn_DoluOdalar.Size = new System.Drawing.Size(188, 36);
-            this.btn_DoluOdalar.TabIndex = 34;
+            this.btn_DoluOdalar.TabIndex = 3;
             this.btn_DoluOdalar.Text = "Dolu Odalar";
             this.btn_DoluOdalar.UseVisualStyleBackColor = false;
             this.btn_DoluOdalar.Click += new System.EventHandler(this.btn_DoluOdalar_Click);
@@ -276,7 +278,7 @@ namespace hotelOasis
             this.btn_RezervasyonTalebi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_RezervasyonTalebi.Name = "btn_RezervasyonTalebi";
             this.btn_RezervasyonTalebi.Size = new System.Drawing.Size(188, 36);
-            this.btn_RezervasyonTalebi.TabIndex = 35;
+            this.btn_RezervasyonTalebi.TabIndex = 1;
             this.btn_RezervasyonTalebi.Text = "Rezervasyon Talepleri";
             this.btn_RezervasyonTalebi.UseVisualStyleBackColor = false;
             this.btn_RezervasyonTalebi.Click += new System.EventHandler(this.btn_RezervasyonTalebi_Click);
@@ -295,7 +297,7 @@ namespace hotelOasis
             this.btn_OdaBosalt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_OdaBosalt.Name = "btn_OdaBosalt";
             this.btn_OdaBosalt.Size = new System.Drawing.Size(188, 36);
-            this.btn_OdaBosalt.TabIndex = 36;
+            this.btn_OdaBosalt.TabIndex = 4;
             this.btn_OdaBosalt.Text = "Odayı Boşalt";
             this.btn_OdaBosalt.UseVisualStyleBackColor = false;
             this.btn_OdaBosalt.Click += new System.EventHandler(this.btn_OdaBosalt_Click);
@@ -306,7 +308,7 @@ namespace hotelOasis
             this.lbl_RezervasyonID.BackColor = System.Drawing.Color.Transparent;
             this.lbl_RezervasyonID.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lbl_RezervasyonID.ForeColor = System.Drawing.Color.White;
-            this.lbl_RezervasyonID.Location = new System.Drawing.Point(62, 431);
+            this.lbl_RezervasyonID.Location = new System.Drawing.Point(61, 448);
             this.lbl_RezervasyonID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_RezervasyonID.Name = "lbl_RezervasyonID";
             this.lbl_RezervasyonID.Size = new System.Drawing.Size(51, 20);
@@ -317,10 +319,10 @@ namespace hotelOasis
             // txt_OdaNo
             // 
             this.txt_OdaNo.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.txt_OdaNo.Location = new System.Drawing.Point(460, 403);
+            this.txt_OdaNo.Location = new System.Drawing.Point(461, 401);
             this.txt_OdaNo.Name = "txt_OdaNo";
             this.txt_OdaNo.Size = new System.Drawing.Size(84, 25);
-            this.txt_OdaNo.TabIndex = 39;
+            this.txt_OdaNo.TabIndex = 7;
             // 
             // label7
             // 
@@ -328,7 +330,7 @@ namespace hotelOasis
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(385, 405);
+            this.label7.Location = new System.Drawing.Point(386, 402);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(70, 21);
@@ -356,7 +358,7 @@ namespace hotelOasis
             this.lbl_RezervasyonTipID.BackColor = System.Drawing.Color.Transparent;
             this.lbl_RezervasyonTipID.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.lbl_RezervasyonTipID.ForeColor = System.Drawing.Color.White;
-            this.lbl_RezervasyonTipID.Location = new System.Drawing.Point(121, 431);
+            this.lbl_RezervasyonTipID.Location = new System.Drawing.Point(120, 448);
             this.lbl_RezervasyonTipID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_RezervasyonTipID.Name = "lbl_RezervasyonTipID";
             this.lbl_RezervasyonTipID.Size = new System.Drawing.Size(57, 20);
@@ -408,13 +410,53 @@ namespace hotelOasis
             this.dateTimePickerCikis.Size = new System.Drawing.Size(206, 26);
             this.dateTimePickerCikis.TabIndex = 45;
             // 
+            // btn_RaporlarıGoster
+            // 
+            this.btn_RaporlarıGoster.BackColor = System.Drawing.Color.Transparent;
+            this.btn_RaporlarıGoster.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_RaporlarıGoster.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_RaporlarıGoster.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_RaporlarıGoster.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_RaporlarıGoster.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_RaporlarıGoster.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_RaporlarıGoster.ForeColor = System.Drawing.Color.White;
+            this.btn_RaporlarıGoster.Location = new System.Drawing.Point(551, 432);
+            this.btn_RaporlarıGoster.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_RaporlarıGoster.Name = "btn_RaporlarıGoster";
+            this.btn_RaporlarıGoster.Size = new System.Drawing.Size(188, 36);
+            this.btn_RaporlarıGoster.TabIndex = 5;
+            this.btn_RaporlarıGoster.Text = "Raporlar";
+            this.btn_RaporlarıGoster.UseVisualStyleBackColor = false;
+            this.btn_RaporlarıGoster.Click += new System.EventHandler(this.btn_RaporlarıGoster_Click);
+            // 
+            // btn_EpostaGonder
+            // 
+            this.btn_EpostaGonder.BackColor = System.Drawing.Color.Transparent;
+            this.btn_EpostaGonder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_EpostaGonder.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_EpostaGonder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_EpostaGonder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_EpostaGonder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_EpostaGonder.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btn_EpostaGonder.ForeColor = System.Drawing.Color.White;
+            this.btn_EpostaGonder.Location = new System.Drawing.Point(356, 431);
+            this.btn_EpostaGonder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_EpostaGonder.Name = "btn_EpostaGonder";
+            this.btn_EpostaGonder.Size = new System.Drawing.Size(188, 36);
+            this.btn_EpostaGonder.TabIndex = 6;
+            this.btn_EpostaGonder.Text = "E-Posta Gönder";
+            this.btn_EpostaGonder.UseVisualStyleBackColor = false;
+            this.btn_EpostaGonder.Click += new System.EventHandler(this.btn_EpostaGonder_Click);
+            // 
             // FrmCalisan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(750, 450);
+            this.ClientSize = new System.Drawing.Size(750, 477);
+            this.Controls.Add(this.btn_EpostaGonder);
+            this.Controls.Add(this.btn_RaporlarıGoster);
             this.Controls.Add(this.dateTimePickerCikis);
             this.Controls.Add(this.dateTimePickerGiris);
             this.Controls.Add(this.pcrExit);
@@ -482,5 +524,7 @@ namespace hotelOasis
         private System.Windows.Forms.PictureBox pcrBack;
         private System.Windows.Forms.DateTimePicker dateTimePickerGiris;
         private System.Windows.Forms.DateTimePicker dateTimePickerCikis;
+        private System.Windows.Forms.Button btn_RaporlarıGoster;
+        private System.Windows.Forms.Button btn_EpostaGonder;
     }
 }

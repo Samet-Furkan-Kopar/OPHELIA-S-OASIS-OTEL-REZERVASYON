@@ -13,6 +13,7 @@ namespace hotelOasis
         public int aralik;
         string giris;
         string cikis;
+        public string odemeTarih;
         public int MusteriId;
         double odenecekTutar;
         double tesvikliTutar;
@@ -30,12 +31,13 @@ namespace hotelOasis
             }
         }
 
-        public StandartRez(int aralik, string Giris, string Cikis, string lblMusteriID)
+        public StandartRez(int aralik, string Giris, string Cikis, string lblMusteriID,string OdemeTarih)
         {
             this.aralik = aralik;
             this.giris = Giris;
             this.cikis = Cikis;
             this.MusteriId = int.Parse(lblMusteriID);
+            this.odemeTarih = OdemeTarih;
         }
 
         public int RezervasyonIslemYap()
@@ -51,6 +53,7 @@ namespace hotelOasis
                 rezervasyonIslemleri1.Ucret = tesvikliTutar;
                 rezervasyonIslemleri1.RezervasyonTipID = 6;
                 rezervasyonIslemleri1.MusteriID = MusteriId;
+                rezervasyonIslemleri1.OdemeTarihi = odemeTarih;
                 rezervasyonIslemleri1.RezervasyonKayit();
                 MessageBox.Show("Giriş Tarihi: '" + giris + "'\nÇıkış Trihi: '" + cikis + "'\nOdenecek Tutar: " + tesvikliTutar, "REZERVASYON YAPILMIŞTIR", MessageBoxButtons.OK);
             }
@@ -62,6 +65,7 @@ namespace hotelOasis
                 rezervasyonIslemleri.Ucret = odenecekTutar;
                 rezervasyonIslemleri.RezervasyonTipID = 3;
                 rezervasyonIslemleri.MusteriID = MusteriId;
+                rezervasyonIslemleri.OdemeTarihi = odemeTarih;
                 rezervasyonIslemleri.RezervasyonKayit();
                 MessageBox.Show("Giriş Tarihi: '" + giris + "'\nÇıkış Trihi: '" + cikis + "'\nOdenecek Tutar: " + odenecekTutar, "REZERVASYON YAPILMIŞTIR", MessageBoxButtons.OK);
             }

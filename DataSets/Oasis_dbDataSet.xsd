@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Oasis_dbDataSet" targetNamespace="http://tempuri.org/Oasis_dbDataSet.xsd" xmlns:mstns="http://tempuri.org/Oasis_dbDataSet.xsd" xmlns="http://tempuri.org/Oasis_dbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Oasis_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Oasis_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.hotelOasis.Properties.Settings.GlobalReference.Default.Oasis_dbConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="_30GünlükDolulukBilgiTableAdapter" GeneratorDataComponentClassName="_30GünlükDolulukBilgiTableAdapter" Name="_30GünlükDolulukBilgi" UserDataComponentName="_30GünlükDolulukBilgiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Oasis_dbConnectionString (Settings)" DbObjectName="Oasis_db.dbo._30GünlükDolulukBilgi" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT RezervasyonTip, GirisTarihi, CikisTarihi FROM dbo.[_30GünlükDolulukBilgi]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="RezervasyonTip" DataSetColumn="RezervasyonTip" />
+              <Mapping SourceColumn="GirisTarihi" DataSetColumn="GirisTarihi" />
+              <Mapping SourceColumn="CikisTarihi" DataSetColumn="CikisTarihi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Oasis_dbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Oasis_dbDataSet" msprop:Generator_UserDSName="Oasis_dbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="_30GünlükDolulukBilgi" msprop:Generator_TableClassName="_30GünlükDolulukBilgiDataTable" msprop:Generator_TableVarName="table_30GünlükDolulukBilgi" msprop:Generator_TablePropName="_30GünlükDolulukBilgi" msprop:Generator_RowDeletingName="_30GünlükDolulukBilgiRowDeleting" msprop:Generator_RowChangingName="_30GünlükDolulukBilgiRowChanging" msprop:Generator_RowEvHandlerName="_30GünlükDolulukBilgiRowChangeEventHandler" msprop:Generator_RowDeletedName="_30GünlükDolulukBilgiRowDeleted" msprop:Generator_UserTableName="_30GünlükDolulukBilgi" msprop:Generator_RowChangedName="_30GünlükDolulukBilgiRowChanged" msprop:Generator_RowEvArgName="_30GünlükDolulukBilgiRowChangeEvent" msprop:Generator_RowClassName="_30GünlükDolulukBilgiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RezervasyonTip" msprop:Generator_ColumnVarNameInTable="columnRezervasyonTip" msprop:Generator_ColumnPropNameInRow="RezervasyonTip" msprop:Generator_ColumnPropNameInTable="RezervasyonTipColumn" msprop:Generator_UserColumnName="RezervasyonTip" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GirisTarihi" msprop:Generator_ColumnVarNameInTable="columnGirisTarihi" msprop:Generator_ColumnPropNameInRow="GirisTarihi" msprop:Generator_ColumnPropNameInTable="GirisTarihiColumn" msprop:Generator_UserColumnName="GirisTarihi" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CikisTarihi" msprop:Generator_ColumnVarNameInTable="columnCikisTarihi" msprop:Generator_ColumnPropNameInRow="CikisTarihi" msprop:Generator_ColumnPropNameInTable="CikisTarihiColumn" msprop:Generator_UserColumnName="CikisTarihi" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
