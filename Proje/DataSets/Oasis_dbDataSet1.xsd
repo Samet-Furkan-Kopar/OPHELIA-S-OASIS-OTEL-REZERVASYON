@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Oasis_dbDataSet1" targetNamespace="http://tempuri.org/Oasis_dbDataSet1.xsd" xmlns:mstns="http://tempuri.org/Oasis_dbDataSet1.xsd" xmlns="http://tempuri.org/Oasis_dbDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Oasis_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Oasis_dbConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.hotelOasis.Properties.Settings.GlobalReference.Default.Oasis_dbConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="RezervasyonTipDoluOdaSayisiTableAdapter" GeneratorDataComponentClassName="RezervasyonTipDoluOdaSayisiTableAdapter" Name="RezervasyonTipDoluOdaSayisi" UserDataComponentName="RezervasyonTipDoluOdaSayisiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Oasis_dbConnectionString (Settings)" DbObjectName="Oasis_db.dbo.RezervasyonTipDoluOdaSayisi" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT RezervasyonTip, [Toplam Oda Sayısı] FROM dbo.RezervasyonTipDoluOdaSayisi</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="RezervasyonTip" DataSetColumn="RezervasyonTip" />
+              <Mapping SourceColumn="Toplam Oda Sayısı" DataSetColumn="Toplam Oda Sayısı" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Oasis_dbDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Oasis_dbDataSet1" msprop:Generator_UserDSName="Oasis_dbDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RezervasyonTipDoluOdaSayisi" msprop:Generator_TableClassName="RezervasyonTipDoluOdaSayisiDataTable" msprop:Generator_TableVarName="tableRezervasyonTipDoluOdaSayisi" msprop:Generator_TablePropName="RezervasyonTipDoluOdaSayisi" msprop:Generator_RowDeletingName="RezervasyonTipDoluOdaSayisiRowDeleting" msprop:Generator_RowChangingName="RezervasyonTipDoluOdaSayisiRowChanging" msprop:Generator_RowEvHandlerName="RezervasyonTipDoluOdaSayisiRowChangeEventHandler" msprop:Generator_RowDeletedName="RezervasyonTipDoluOdaSayisiRowDeleted" msprop:Generator_UserTableName="RezervasyonTipDoluOdaSayisi" msprop:Generator_RowChangedName="RezervasyonTipDoluOdaSayisiRowChanged" msprop:Generator_RowEvArgName="RezervasyonTipDoluOdaSayisiRowChangeEvent" msprop:Generator_RowClassName="RezervasyonTipDoluOdaSayisiRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RezervasyonTip" msprop:Generator_ColumnVarNameInTable="columnRezervasyonTip" msprop:Generator_ColumnPropNameInRow="RezervasyonTip" msprop:Generator_ColumnPropNameInTable="RezervasyonTipColumn" msprop:Generator_UserColumnName="RezervasyonTip" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Toplam_x0020_Oda_x0020_Sayısı" msprop:Generator_ColumnVarNameInTable="columnToplam_Oda_Sayısı" msprop:Generator_ColumnPropNameInRow="Toplam_Oda_Sayısı" msprop:Generator_ColumnPropNameInTable="Toplam_Oda_SayısıColumn" msprop:Generator_UserColumnName="Toplam Oda Sayısı" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

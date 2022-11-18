@@ -1,0 +1,277 @@
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe.config
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.AssemblyReference.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.Properties.Resources.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.GenerateResource.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.CoreCompileInputs.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriKayitOl.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmGirisler.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYetkiliGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyon.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe.config
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\hotelOasis.pdb
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.AssemblyReference.cache
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmGirisler.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriGiris.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriKayitOl.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyon.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYetkiliGiris.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.Properties.Resources.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.GenerateResource.cache
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.CoreCompileInputs.cache
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.exe
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe.config
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\bin\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmGirisler.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriKayitOl.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyon.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYetkiliGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.Properties.Resources.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.GenerateResource.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.CoreCompileInputs.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.AssemblyReference.cache
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYonetici.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmOdeme.resources
+C:\Users\samet\OneDrive\Masaüstü\Otel_Proje1\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyonlarım.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmOdeme.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyonlarım.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe.config
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.AssemblyReference.cache
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmGirisler.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmMusteriKayitOl.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmOdeme.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyon.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYetkiliGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYonetici.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyonlarım.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.Properties.Resources.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.GenerateResource.cache
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.CoreCompileInputs.cache
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.pdb
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmCalisan.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmYonetici.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmCalisan.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.Frm60GunOnceOdeme.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\EnvDTE.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\stdole.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\Microsoft.MSXML.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.CopyComplete
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\RdlCompile.cache
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\RdlCompile.compiled
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmCalisanRapor.resources
+C:\Users\samet\OneDrive\Masaüstü\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmFatura.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\EnvDTE.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\stdole.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.Frm60GunOnceOdeme.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmCalisanRapor.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.FrmFatura.resources
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\RdlCompile.cache
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\RdlCompile.compiled
+C:\Users\Neşet Can SALIK\Desktop\Otel_Proje\hotelOasis\hotelOasis\obj\Debug\hotelOasis.csproj.CopyComplete
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\hotelOasis.exe.config
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\hotelOasis.pdb
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\EnvDTE.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\stdole.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\Microsoft.MSXML.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.csproj.AssemblyReference.cache
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmGirisler.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmMusteriGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmMusteriKayitOl.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmOdeme.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyon.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmYetkiliGiris.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmCalisan.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.Frm60GunOnceOdeme.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmCalisanRapor.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmFatura.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmRezervasyonlarım.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.FrmYonetici.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.Properties.Resources.resources
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.csproj.GenerateResource.cache
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\RdlCompile.cache
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\RdlCompile.compiled
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.csproj.CoreCompileInputs.cache
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.csproj.CopyComplete
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.exe
+C:\Users\samet\OneDrive\Masaüstü\Yeni klasör\hotelOasis\obj\Debug\hotelOasis.pdb
